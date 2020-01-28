@@ -2038,7 +2038,7 @@
   (gr_text "Pressure\nHumidity\nTemperature" (at 59.7535 34.671) (layer B.SilkS) (tstamp 5DFFE249)
     (effects (font (size 0.8 0.8) (thickness 0.12)) (justify mirror))
   )
-  (gr_text "I2C & SPI" (at 71.0565 34.7345) (layer B.SilkS) (tstamp 5E27D2C5)
+  (gr_text "I2C & SPI\nWeather\nSensor" (at 71.0565 34.7345) (layer B.SilkS) (tstamp 5E27D2C5)
     (effects (font (size 0.8 0.8) (thickness 0.12)) (justify mirror))
   )
   (gr_text BME280 (at 62.1665 31.8135) (layer F.SilkS)

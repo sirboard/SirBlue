@@ -11,12 +11,13 @@
 
   (page User 132.004 102.006)
   (title_block
-    (title "MCP4728 Breakout")
+    (title "MCP9808 Breakout")
     (date 2020-01-23)
     (rev 2)
     (company SirBoard)
-    (comment 1 "4 Channel I2C DAC with 12 Bit Resolution")
-    (comment 2 "MCP4728 - SirBlue")
+    (comment 1 "Selectable Resolution: 0.5°C, 0.25°C, 0.125°C, 0.0625°C")
+    (comment 2 "I2C Temperature Sensor")
+    (comment 3 "MCP9808 - SirBlue")
   )
 
   (layers
@@ -550,7 +551,7 @@
     (tags "solder jumper open")
     (path /5E2C1EEA)
     (attr virtual)
-    (fp_text reference JP3 (at 0 1.8) (layer B.SilkS)
+    (fp_text reference SCL (at 0 1.8) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value SolderJumper_2_Open (at 0 -1.9) (layer B.Fab)
@@ -594,7 +595,7 @@
     (tags "solder jumper open")
     (path /5E2BC884)
     (attr virtual)
-    (fp_text reference JP2 (at 0 1.8) (layer B.SilkS)
+    (fp_text reference SDA (at 0 1.8) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value SolderJumper_2_Open (at 0 -1.9) (layer B.Fab)
