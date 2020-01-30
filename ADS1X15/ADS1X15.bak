@@ -1,0 +1,377 @@
+EESchema Schematic File Version 4
+LIBS:ADS1X15-cache
+EELAYER 29 0
+EELAYER END
+$Descr User 6299 5118
+encoding utf-8
+Sheet 1 1
+Title "ADS1X15 Breakout "
+Date "2020-01-30"
+Rev "2"
+Comp "SirBoard"
+Comment1 "4 Channel I2C ADC with 12/16 Bit Resolution"
+Comment2 "ADS1015, ADS1115 - SirBlue"
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 1725 2900 2    50   Input ~ 0
+SDA_5V
+Text GLabel 1725 2800 2    50   Input ~ 0
+SCL_5V
+Text GLabel 1725 3100 2    50   Input ~ 0
+GND
+Text GLabel 1725 3000 2    50   Input ~ 0
+VCC
+Text GLabel 1000 2900 0    50   Input ~ 0
+SDA_5V
+Text GLabel 1000 2800 0    50   Input ~ 0
+SCL_5V
+Text GLabel 1000 3100 0    50   Input ~ 0
+GND
+Text GLabel 1000 3000 0    50   Input ~ 0
+VCC
+$Comp
+L Connector_Generic:Conn_01x04 J4
+U 1 1 5E3DB418
+P 1525 2900
+F 0 "J4" H 1525 3125 50  0000 C CNN
+F 1 "Conn_01x04" H 1604 2802 50  0001 L CNN
+F 2 "SirBoardLibrary:SirBlue_Connector" H 1525 2900 50  0001 C CNN
+F 3 "~" H 1525 2900 50  0001 C CNN
+F 4 "C160404" H 1525 2900 50  0001 C CNN "Part"
+	1    1525 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 5E3D9C60
+P 1200 2900
+F 0 "J2" H 1150 3125 50  0000 L CNN
+F 1 "Conn_01x04" H 1279 2802 50  0001 L CNN
+F 2 "SirBoardLibrary:SirBlue_Connector" H 1200 2900 50  0001 C CNN
+F 3 "~" H 1200 2900 50  0001 C CNN
+F 4 "C160404" H 1200 2900 50  0001 C CNN "Part"
+	1    1200 2900
+	1    0    0    -1  
+$EndComp
+Text GLabel 1000 2300 0    50   Input ~ 0
+SDA_5V
+Text GLabel 1000 2200 0    50   Input ~ 0
+SCL_5V
+$Comp
+L Connector_Generic:Conn_01x06 J3
+U 1 1 5E3AA035
+P 1525 2000
+F 0 "J3" H 1525 2325 50  0000 C CNN
+F 1 "Conn_01x06" H 1604 1902 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1525 2000 50  0001 C CNN
+F 3 "~" H 1525 2000 50  0001 C CNN
+	1    1525 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J1
+U 1 1 5E3A64F0
+P 1200 2000
+F 0 "J1" H 1150 2325 50  0000 L CNN
+F 1 "Conn_01x06" H 1279 1902 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1200 2000 50  0001 C CNN
+F 3 "~" H 1200 2000 50  0001 C CNN
+	1    1200 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5DF50F70
+P 950 1250
+F 0 "H1" H 1050 1295 50  0000 L CNN
+F 1 "MountingHole" H 1050 1205 50  0000 L CNN
+F 2 "SirBoardLibrary:MountingHole_M2.5_SirBoard" H 950 1250 50  0001 C CNN
+F 3 "~" H 950 1250 50  0001 C CNN
+	1    950  1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5DF50F6A
+P 1700 1250
+F 0 "H2" H 1800 1295 50  0000 L CNN
+F 1 "MountingHole" H 1800 1205 50  0000 L CNN
+F 2 "SirBoardLibrary:MountingHole_M2.5_SirBoard" H 1700 1250 50  0001 C CNN
+F 3 "~" H 1700 1250 50  0001 C CNN
+	1    1700 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 1000 1900 0    50   Input ~ 0
+GND
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5DB4A06C
+P 950 975
+F 0 "H3" H 1050 1020 50  0000 L CNN
+F 1 "MountingHole" H 1050 930 50  0000 L CNN
+F 2 "SirBoardLibrary:MountingHole_M2.5_SirBoard" H 950 975 50  0001 C CNN
+F 3 "~" H 950 975 50  0001 C CNN
+	1    950  975 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5DB4A072
+P 1700 975
+F 0 "H4" H 1800 1020 50  0000 L CNN
+F 1 "MountingHole" H 1800 930 50  0000 L CNN
+F 2 "SirBoardLibrary:MountingHole_M2.5_SirBoard" H 1700 975 50  0001 C CNN
+F 3 "~" H 1700 975 50  0001 C CNN
+	1    1700 975 
+	1    0    0    -1  
+$EndComp
+Text GLabel 1000 1800 0    50   Input ~ 0
+VCC
+Text GLabel 5425 1250 2    50   Input ~ 0
+VCC
+Text GLabel 3350 2275 0    50   Input ~ 0
+SDA
+Text GLabel 3350 2175 0    50   Input ~ 0
+SCL
+$Comp
+L Device:R_US R2
+U 1 1 5E2C9265
+P 3825 1525
+F 0 "R2" H 3893 1570 50  0000 L CNN
+F 1 "10K" H 3893 1480 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3865 1515 50  0001 C CNN
+F 3 "~" H 3825 1525 50  0001 C CNN
+F 4 "C99198" H 3825 1525 50  0001 C CNN "Part"
+	1    3825 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 5E2CA579
+P 3550 1525
+F 0 "R1" H 3618 1570 50  0000 L CNN
+F 1 "10K" H 3618 1480 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3590 1515 50  0001 C CNN
+F 3 "~" H 3550 1525 50  0001 C CNN
+F 4 "C99198" H 3550 1525 50  0001 C CNN "Part"
+	1    3550 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5E0038E9
+P 2925 2000
+F 0 "C1" H 3040 2045 50  0000 L CNN
+F 1 "10uF" H 3040 1955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2963 1850 50  0001 C CNN
+F 3 "~" H 2925 2000 50  0001 C CNN
+F 4 "C95841" H 2925 2000 50  0001 C CNN "Part"
+	1    2925 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 5E2BC884
+P 3550 1925
+F 0 "JP2" H 3550 2038 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 3550 2038 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3550 1925 50  0001 C CNN
+F 3 "~" H 3550 1925 50  0001 C CNN
+	1    3550 1925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP3
+U 1 1 5E2C1EEA
+P 3825 1925
+F 0 "JP3" H 3825 2038 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 3825 2038 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3825 1925 50  0001 C CNN
+F 3 "~" H 3825 1925 50  0001 C CNN
+	1    3825 1925
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4200 1975 0    50   Input ~ 0
+ALERT
+Text GLabel 1725 2300 2    50   Input ~ 0
+VoutA
+Text GLabel 1725 2200 2    50   Input ~ 0
+VoutB
+Text GLabel 1725 2100 2    50   Input ~ 0
+VoutC
+Text GLabel 1725 2000 2    50   Input ~ 0
+VoutD
+Text GLabel 1725 1900 2    50   Input ~ 0
+GND
+Text GLabel 1725 1800 2    50   Input ~ 0
+VCC
+Text GLabel 1000 2000 0    50   Input ~ 0
+LDAC
+Text GLabel 1000 2100 0    50   Input ~ 0
+RDY
+$Comp
+L Analog_ADC:ADS1115IDGS U?
+U 1 1 5E33818B
+P 4800 2175
+F 0 "U?" H 4800 2853 50  0000 C CNN
+F 1 "ADS1X15" H 4800 2763 50  0000 C CNN
+F 2 "Package_SO:TSSOP-10_3x3mm_P0.5mm" H 4800 1675 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ads1113.pdf" H 4750 1275 50  0001 C CNN
+	1    4800 2175
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E33FACD
+P 4500 2700
+F 0 "R?" V 4600 2750 50  0000 L CNN
+F 1 "10K" V 4600 2525 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4540 2690 50  0001 C CNN
+F 3 "~" H 4500 2700 50  0001 C CNN
+F 4 "C99198" H 4500 2700 50  0001 C CNN "Part"
+	1    4500 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 1675 3550 1775
+Wire Wire Line
+	3825 1675 3825 1775
+Wire Wire Line
+	3350 2175 3550 2175
+Wire Wire Line
+	3350 2275 3825 2275
+Wire Wire Line
+	3550 2075 3550 2175
+Connection ~ 3550 2175
+Wire Wire Line
+	3550 2175 4400 2175
+Wire Wire Line
+	3825 2075 3825 2275
+Connection ~ 3825 2275
+Wire Wire Line
+	3825 2275 4400 2275
+Wire Wire Line
+	4250 1675 4250 1975
+Wire Wire Line
+	4250 1975 4400 1975
+Wire Wire Line
+	4200 1975 4250 1975
+Connection ~ 4250 1975
+Wire Wire Line
+	4975 1250 4800 1250
+Wire Wire Line
+	4800 1250 4800 1675
+Wire Wire Line
+	4800 1250 4250 1250
+Wire Wire Line
+	4250 1250 4250 1375
+Connection ~ 4800 1250
+Wire Wire Line
+	4250 1250 3825 1250
+Wire Wire Line
+	3825 1250 3825 1375
+Connection ~ 4250 1250
+Wire Wire Line
+	3825 1250 3550 1250
+Wire Wire Line
+	3550 1250 3550 1375
+Connection ~ 3825 1250
+Wire Wire Line
+	4650 2700 4800 2700
+Connection ~ 4800 2700
+Wire Wire Line
+	4800 2700 4800 2575
+Wire Wire Line
+	4350 2700 4250 2700
+Wire Wire Line
+	4250 2375 4400 2375
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 5E2CC03A
+P 3925 2700
+F 0 "JP1" H 3925 2813 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 3925 2813 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3925 2700 50  0001 C CNN
+F 3 "~" H 3925 2700 50  0001 C CNN
+	1    3925 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4075 2700 4250 2700
+$Comp
+L Device:R_US R?
+U 1 1 5E357581
+P 4250 1525
+F 0 "R?" H 4318 1570 50  0000 L CNN
+F 1 "10K" H 4318 1480 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4290 1515 50  0001 C CNN
+F 3 "~" H 4250 1525 50  0001 C CNN
+F 4 "C99198" H 4250 1525 50  0001 C CNN "Part"
+	1    4250 1525
+	1    0    0    -1  
+$EndComp
+Connection ~ 4250 2700
+Wire Wire Line
+	4250 2375 4250 2700
+$Comp
+L Device:Ferrite_Bead FB?
+U 1 1 5E3613A7
+P 5125 1250
+F 0 "FB?" V 4853 1250 50  0000 C CNN
+F 1 "Ferrite_Bead" V 4943 1250 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V 5055 1250 50  0001 C CNN
+F 3 "~" H 5125 1250 50  0001 C CNN
+F 4 "C434821" H 5125 1250 50  0001 C CNN "Part"
+	1    5125 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5425 1250 5275 1250
+Wire Wire Line
+	4975 2700 4800 2700
+$Comp
+L Device:Ferrite_Bead FB?
+U 1 1 5E36643F
+P 5125 2700
+F 0 "FB?" V 4853 2700 50  0000 C CNN
+F 1 "Ferrite_Bead" V 4943 2700 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V 5055 2700 50  0001 C CNN
+F 3 "~" H 5125 2700 50  0001 C CNN
+F 4 "C434821" H 5125 2700 50  0001 C CNN "Part"
+	1    5125 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5425 2700 5275 2700
+Text GLabel 5425 2700 2    50   Input ~ 0
+GND
+Wire Wire Line
+	3550 1250 3075 1250
+Wire Wire Line
+	2925 1250 2925 1850
+Connection ~ 3550 1250
+Text GLabel 2850 1250 0    50   Input ~ 0
+VCC_B
+Wire Wire Line
+	2850 1250 2925 1250
+Connection ~ 2925 1250
+Wire Wire Line
+	3075 1250 3075 2700
+Wire Wire Line
+	3075 2700 3775 2700
+Connection ~ 3075 1250
+Wire Wire Line
+	3075 1250 2925 1250
+Wire Wire Line
+	2925 2150 2925 2850
+Wire Wire Line
+	2925 2850 4800 2850
+Wire Wire Line
+	4800 2850 4800 2700
+Text GLabel 2850 2850 0    50   Input ~ 0
+GND_B
+Wire Wire Line
+	2850 2850 2925 2850
+Connection ~ 2925 2850
+$EndSCHEMATC
