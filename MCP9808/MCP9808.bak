@@ -9,23 +9,15 @@ Title "MCP9808 Breakout "
 Date "2020-01-23"
 Rev "2"
 Comp "SirBoard"
-Comment1 "I2C Temperature Sensor"
-Comment2 "MCP9808 - SirBlue"
-Comment3 ""
+Comment1 "Selectable Resolution: 0.5°C, 0.25°C, 0.125°C, 0.0625°C"
+Comment2 "I2C Temperature Sensor"
+Comment3 "MCP9808 - SirBlue"
 Comment4 ""
 $EndDescr
-Text GLabel 1725 2900 2    50   Input ~ 0
-SDA_5V
-Text GLabel 1725 2800 2    50   Input ~ 0
-SCL_5V
 Text GLabel 1725 3100 2    50   Input ~ 0
 GND
 Text GLabel 1725 3000 2    50   Input ~ 0
 VCC
-Text GLabel 1000 2900 0    50   Input ~ 0
-SDA_5V
-Text GLabel 1000 2800 0    50   Input ~ 0
-SCL_5V
 Text GLabel 1000 3100 0    50   Input ~ 0
 GND
 Text GLabel 1000 3000 0    50   Input ~ 0
@@ -54,10 +46,6 @@ F 4 "C160404" H 1200 2900 50  0001 C CNN "Part"
 	1    1200 2900
 	1    0    0    -1  
 $EndComp
-Text GLabel 1000 2300 0    50   Input ~ 0
-SDA_5V
-Text GLabel 1000 2200 0    50   Input ~ 0
-SCL_5V
 $Comp
 L Connector_Generic:Conn_01x06 J3
 U 1 1 5E3AA035
@@ -128,22 +116,12 @@ F 3 "~" H 1700 975 50  0001 C CNN
 $EndComp
 Text GLabel 1000 1800 0    50   Input ~ 0
 VCC
-Text GLabel 1725 2300 2    50   Input ~ 0
-VoutA
-Text GLabel 1725 2200 2    50   Input ~ 0
-VoutB
-Text GLabel 1725 2100 2    50   Input ~ 0
-VoutC
-Text GLabel 1725 2000 2    50   Input ~ 0
-VoutD
 Text GLabel 1725 1900 2    50   Input ~ 0
 GND
 Text GLabel 1725 1800 2    50   Input ~ 0
 VCC
 Text GLabel 1000 2000 0    50   Input ~ 0
-LDAC
-Text GLabel 1000 2100 0    50   Input ~ 0
-RDY
+ALERT
 Text GLabel 5400 800  2    50   Input ~ 0
 VCC
 $Comp
@@ -429,4 +407,28 @@ F 3 "~" H 3050 2375 50  0001 C CNN
 $EndComp
 Text GLabel 4925 1975 2    50   Input ~ 0
 ALERT
+Text GLabel 1000 2200 0    50   Input ~ 0
+SCL
+Text GLabel 1000 2300 0    50   Input ~ 0
+SDA
+Text GLabel 1000 2800 0    50   Input ~ 0
+SCL
+Text GLabel 1000 2900 0    50   Input ~ 0
+SDA
+Text GLabel 1725 2800 2    50   Input ~ 0
+SCL
+Text GLabel 1725 2900 2    50   Input ~ 0
+SDA
+Text Label 3650 2075 0    50   ~ 0
+A0
+Text Label 3650 2175 0    50   ~ 0
+A1
+Text Label 3650 2275 0    50   ~ 0
+A2
+Text GLabel 1725 2300 2    50   Input ~ 0
+A2
+Text GLabel 1725 2200 2    50   Input ~ 0
+A1
+Text GLabel 1725 2100 2    50   Input ~ 0
+A0
 $EndSCHEMATC
