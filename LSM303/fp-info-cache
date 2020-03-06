@@ -1,4 +1,4 @@
-15985358725195238
+16001167516097012
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49322,6 +49322,13 @@ SirNano118x40
 0
 0
 logo
+SirRed52x21
+
+
+0
+0
+0
+logo
 SirTime68x24
 
 
@@ -49463,6 +49470,13 @@ TheDuke98x23
 0
 logo
 TheDuke112x26
+
+
+0
+0
+0
+logo
+Thuven
 
 
 0
@@ -65625,6 +65639,13 @@ Keystone type 3000 coin cell retainer
 3
 2
 SirBoardLibrary
+DFN2.5X2.5_P=0.5m
+
+
+0
+9
+9
+SirBoardLibrary
 DIP1524W65P254L3175H1019Q24N
 dip24
 Power Supply
@@ -65639,12 +65660,54 @@ Integrated Circuit
 16
 16
 SirBoardLibrary
+Hole_0.3mm
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
+SirBoardLibrary
+Hole_0.6mm
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
+SirBoardLibrary
+Lite-On_LTR-381
+ambient light sensor, i2c interface, 6-pin chipled package, http://optoelectronics.liteon.com/upload/download/DS86-2013-0004/LTR-303ALS-01_DS_V1.pdf
+ambient light sensor chipled
+0
+6
+6
+SirBoardLibrary
+L_2520
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor handsolder
+0
+2
+2
+SirBoardLibrary
 MDBT42Q
 MDBT42Q
 Undefined or Miscellaneous
 0
 41
 41
+SirBoardLibrary
+microSD_Hirose_DM3AT
+Micro SD, SMD, right-angle, push-pull (https://www.hirose.com/product/en/download_file/key_name/DM3AT-SF-PEJM5/category/Drawing%20(2D)/doc_file_id/44099/?file_category_id=6&item_id=06090031000&is_series=)
+Micro SD
+0
+14
+11
+SirBoardLibrary
+MountingHole_0.3mm
+Mounting Hole 2.1mm, no annular
+mounting hole 2.1mm no annular
+0
+0
+0
 SirBoardLibrary
 MountingHole_M2.5_SirBoard
 Mounting Hole 2.7mm, M2.5, ISO14580
@@ -65750,6 +65813,13 @@ USB USB_B USB_Mini connector
 0
 9
 6
+SirBoardLibrary
+SirRed_Connector
+
+
+0
+5
+4
 SirBoardLibrary
 SOP65P490X110-8N
 RM-8(MSOP)
