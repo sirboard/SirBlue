@@ -141,10 +141,6 @@ F 3 "" H 3950 2800 50  0001 C CNN
 	1    3950 2800
 	1    0    0    -1  
 $EndComp
-Text GLabel 2500 2300 0    50   Input ~ 0
-SDA
-Text GLabel 2500 2200 0    50   Input ~ 0
-SCL
 $Comp
 L Device:R_US R2
 U 1 1 5E2C9265
@@ -200,10 +196,10 @@ F 4 "C95841" H 5425 1925 50  0001 C CNN "Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Analog_DAC:MCP4728 U?
+L Analog_DAC:MCP4728 U1
 U 1 1 5E2B8F94
 P 3950 2300
-F 0 "U?" H 3950 2778 50  0000 C CNN
+F 0 "U1" H 3950 2778 50  0000 C CNN
 F 1 "MCP4728" H 3950 2688 50  0000 C CNN
 F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 3950 1700 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22187E.pdf" H 3950 2550 50  0001 C CNN
@@ -212,10 +208,10 @@ F 4 "C108207" H 3950 2300 50  0001 C CNN "Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L Jumper:SolderJumper_2_Open JP2
 U 1 1 5E2BC884
 P 2925 1950
-F 0 "JP?" H 2925 2063 50  0000 C CNN
+F 0 "JP2" H 2925 2063 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 2925 2063 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 2925 1950 50  0001 C CNN
 F 3 "~" H 2925 1950 50  0001 C CNN
@@ -223,10 +219,10 @@ F 3 "~" H 2925 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L Jumper:SolderJumper_2_Open JP3
 U 1 1 5E2C1EEA
 P 3200 1950
-F 0 "JP?" H 3200 2063 50  0000 C CNN
+F 0 "JP3" H 3200 2063 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 3200 2063 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3200 1950 50  0001 C CNN
 F 3 "~" H 3200 1950 50  0001 C CNN
@@ -240,10 +236,10 @@ Wire Wire Line
 Text GLabel 3350 2400 0    50   Input ~ 0
 LDAC
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L Jumper:SolderJumper_2_Open JP1
 U 1 1 5E2CC03A
 P 2825 2500
-F 0 "JP?" H 2825 2613 50  0000 C CNN
+F 0 "JP1" H 2825 2613 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 2825 2613 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 2825 2500 50  0001 C CNN
 F 3 "~" H 2825 2500 50  0001 C CNN
@@ -269,10 +265,10 @@ Wire Wire Line
 Wire Wire Line
 	2975 2500 3350 2500
 $Comp
-L Device:R_US R?
+L Device:R_US R3
 U 1 1 5E2DA8A2
 P 2625 1550
-F 0 "R?" H 2693 1595 50  0000 L CNN
+F 0 "R3" H 2693 1595 50  0000 L CNN
 F 1 "100K" H 2693 1505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2665 1540 50  0001 C CNN
 F 3 "~" H 2625 1550 50  0001 C CNN
@@ -312,8 +308,6 @@ Wire Wire Line
 	4975 1775 4975 1325
 Connection ~ 4975 1325
 Wire Wire Line
-	4975 1325 3200 1325
-Wire Wire Line
 	4975 2075 4975 2800
 Wire Wire Line
 	4975 2800 3950 2800
@@ -325,13 +319,13 @@ Connection ~ 4975 2800
 Wire Wire Line
 	3950 2800 3950 2700
 Connection ~ 3950 2800
-Text GLabel 1725 2000 2    50   Input ~ 0
-VoutA
-Text GLabel 1725 2100 2    50   Input ~ 0
-VoutB
-Text GLabel 1725 2200 2    50   Input ~ 0
-VoutC
 Text GLabel 1725 2300 2    50   Input ~ 0
+VoutA
+Text GLabel 1725 2200 2    50   Input ~ 0
+VoutB
+Text GLabel 1725 2100 2    50   Input ~ 0
+VoutC
+Text GLabel 1725 2000 2    50   Input ~ 0
 VoutD
 Text GLabel 1725 1900 2    50   Input ~ 0
 GND
@@ -341,4 +335,15 @@ Text GLabel 1000 2000 0    50   Input ~ 0
 LDAC
 Text GLabel 1000 2100 0    50   Input ~ 0
 RDY
+Wire Wire Line
+	3950 2000 3950 1325
+Wire Wire Line
+	3200 1325 3950 1325
+Connection ~ 3950 1325
+Wire Wire Line
+	3950 1325 4975 1325
+Text GLabel 2500 2300 0    50   Input ~ 0
+SDA_5V
+Text GLabel 2500 2200 0    50   Input ~ 0
+SCL_5V
 $EndSCHEMATC
