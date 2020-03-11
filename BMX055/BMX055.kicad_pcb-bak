@@ -11,14 +11,14 @@
 
   (page User 132.004 102.006)
   (title_block
-    (title "BMI055 Breakout with 5V Level Shift - Optimised For I2C")
-    (date 2020-03-08)
+    (title "SirBlue - BMX055 Breakout with 5V Level Shift")
+    (date 2020-03-09)
     (rev 1)
     (company SirBoard)
-    (comment 1 "Gyroscope = ±125°/s, ±250°/s, ±500°/s, ±1000°/s, ±2000°/s")
-    (comment 2 "Accelerometer = ±4g/ ±8g/ ±12g/ ±16g")
-    (comment 3 "Digital 16 Bit Gyroscope And 12 Bit Accelerometer Optimised For I2C")
-    (comment 4 "BMI055 - SirBlue")
+    (comment 1 "Magnetometer:  X = ±1300μT, Y = ±1300μT, Z = ±2500μT")
+    (comment 2 "Gyroscope = ±125°/s, ±250°/s, ±500°/s, ±1000°/s, ±2000°/s")
+    (comment 3 "Accelerometer = ±4g/ ±8g/ ±12g/ ±16g")
+    (comment 4 "16 Bit Gyroscope, 12 Bit Accelerometer And 13/15 Bit Magnetometer Optimised For I2C")
   )
 
   (layers
