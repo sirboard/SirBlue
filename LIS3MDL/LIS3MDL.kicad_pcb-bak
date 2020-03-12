@@ -11,14 +11,13 @@
 
   (page User 132.004 102.006)
   (title_block
-    (title "LSM6DS33 Breakout with 5V Level Shift")
-    (date 2020-01-21)
-    (rev 2)
+    (title "LIS3MDL Breakout with 5V Level Shift")
+    (date 2020-03-06)
+    (rev 1)
     (company SirBoard)
-    (comment 1 "Gyroscope: ±125/±245/±500/±1000/±2000 dps")
-    (comment 2 "Accelerometer: ±2g, ±4g, ±8g, ±16g")
-    (comment 3 "Digital Accelerometer and Gyroscope with I2C and SPI")
-    (comment 4 "LSM6DS33 - SirBlue")
+    (comment 1 "Magnetometer: ±2, ±4, ±8, ±16Gauss Ranges")
+    (comment 2 "Digital Magnetometer with I2C and SPI")
+    (comment 3 "LIS3MDL - SirBlue")
   )
 
   (layers

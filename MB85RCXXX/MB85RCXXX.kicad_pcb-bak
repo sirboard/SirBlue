@@ -16,7 +16,8 @@
     (rev 2)
     (company SirBoard)
     (comment 1 www.SirBoard.com)
-    (comment 2 "MB85RC64, MB85RC128, MB85RC256, MB85RC512, MB85RC1M - SirBlue")
+    (comment 2 "I2C Protocol FRAM Memory Breakout Boards Based on the SirBlue Form Factor")
+    (comment 3 "MB85RC64, MB85RC128, MB85RC256, MB85RC512, MB85RC1M - SirBlue")
   )
 
   (layers

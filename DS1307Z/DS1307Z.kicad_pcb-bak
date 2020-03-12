@@ -11,13 +11,13 @@
 
   (page User 132.004 102.006)
   (title_block
-    (title "DS1307 Breakout")
+    (title "DS1307Z Breakout")
     (date 2020-02-09)
     (rev 2)
     (company SirBoard)
     (comment 1 www.SirBoard.com)
     (comment 2 "Real Time Clock With Battery Back-Up")
-    (comment 3 "DS1307 - SirBlue")
+    (comment 3 "DS1307Z - SirBlue")
   )
 
   (layers
@@ -44,7 +44,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.127)
     (user_trace_width 0.2)
     (user_trace_width 0.25)
     (user_trace_width 0.3)

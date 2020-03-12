@@ -11,12 +11,12 @@
 
   (page User 132.004 102.006)
   (title_block
-    (title "MCP4728 Breakout")
-    (date 2020-01-23)
+    (title "MCP4725 Breakout")
+    (date 2020-02-09)
     (rev 2)
     (company SirBoard)
-    (comment 1 "4 Channel I2C DAC with 12 Bit Resolution")
-    (comment 2 "MCP4728 - SirBlue")
+    (comment 1 "1 Channel I2C DAC with 12 Bit Resolution")
+    (comment 2 "MCP4725 - SirBlue")
   )
 
   (layers

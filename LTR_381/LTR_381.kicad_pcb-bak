@@ -11,14 +11,14 @@
 
   (page User 132.004 102.006)
   (title_block
-    (title "LTR-303ALS Breakout with 5V Level Shift")
-    (date 2020-01-29)
-    (rev 1)
+    (title "LTR-381RGB Breakout with 5V Level Shift")
+    (date 2020-03-10)
+    (rev 2)
     (company SirBoard)
     (comment 1 "Automatic rejection for 50Hz/60Hz lighting")
-    (comment 2 "Full dynamic range from 0.01 lux to 64k lux")
+    (comment 2 "Programmable 16 to 20 Bit Output")
     (comment 3 "Digital Ambient Light, Colour and Infrared Sensor with I2C")
-    (comment 4 "LTR-303ALS - SirBlue")
+    (comment 4 "LTR-381RGB - SirBlue")
   )
 
   (layers
