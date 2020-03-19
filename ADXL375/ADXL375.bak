@@ -1,17 +1,17 @@
 EESchema Schematic File Version 4
-LIBS:ADXL345-cache
+LIBS:ADXL375-cache
 EELAYER 29 0
 EELAYER END
 $Descr User 7874 5906
 encoding utf-8
 Sheet 1 1
-Title "ADXL345 Breakout with 5V Level Shift"
-Date "2020-01-21"
-Rev "2"
+Title "ADXL375 Breakout with 5V Level Shift"
+Date "2020-03-11"
+Rev "1"
 Comp "SirBoard"
-Comment1 "Digital 10bit/13 bit I2C/SPI Accelerometer"
-Comment2 "±2g, ±4g, ±8g, ±16g"
-Comment3 "ADXL345 - SirBlue"
+Comment1 "Digital 16 bit I2C/SPI Accelerometer"
+Comment2 "±200g"
+Comment3 "ADXL375 - SirBlue"
 Comment4 ""
 $EndDescr
 Wire Wire Line
